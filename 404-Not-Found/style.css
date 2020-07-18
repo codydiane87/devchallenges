@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  height: 100vh;
+  color: #333;
+  font-style: normal;
+}
+
+.container {
+  padding: 2rem 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1,
+.content h2,
+.content p {
+  text-align: left;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 2.4rem;
+  letter-spacing: -0.08rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.img {
+  width: 29rem;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 7.1rem;
+  letter-spacing: -0.08rem;
+  width: 35rem;
+  margin-top: 5rem;
+}
+
+.content p {
+  width: 32.8rem;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #4f4f4f;
+  margin: 5rem 0;
+}
+
+.content a {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -0.035rem;
+  display: block;
+  width: 21.6rem;
+}
+
+.content a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-top: 10rem;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 3rem;
+    max-width: 1200px;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 10rem;
+  }
+  .img {
+    width: 50%;
+    float: left;
+  }
+  .content {
+    float: right;
+    width: 45%;
+  }
+
+  .content h2 {
+    margin-top: 0;
+    width: 50rem;
+  }
+  .footer {
+    margin-top: 0;
+    position: fixed;
+    left: 0;
+    bottom: 5rem;
+    width: 100%;
+  }
+}
